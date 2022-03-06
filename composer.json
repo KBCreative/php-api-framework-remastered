@@ -1,0 +1,13 @@
+{
+    "name": "kbcreative/php-api-framework-remastered",
+    "description": "A simple lightweight framework",
+    "authors": [
+        {
+            "name": "Koen de Wolf"
+        },
+        {
+            "name": "Bruno Figueiredo"
+        }
+    ],
+    "require": {}
+}
