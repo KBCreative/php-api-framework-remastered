@@ -12,8 +12,8 @@ class Template
 
     public function __construct($template_string, $string)
     {
-        $this->template_string  = $template_string;
-        $this->string           = $string;
+        $this->template_string  = trim($template_string, "/");
+        $this->string           = trim($string, "/");
 
         $this->generateRegex();
     }

@@ -32,10 +32,7 @@ class Router
         $method = $this->request->getMethod();
 
         foreach ($this->routes as $route => $className) {
-            $template = new Template(
-                trim($route, "/"),
-                $path
-            );
+            $template = new Template($route, $path);
 
             if ($template->isMatch()) {
                 if (in_array($method, get_class_methods($className))) {
