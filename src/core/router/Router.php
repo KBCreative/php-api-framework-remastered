@@ -8,8 +8,8 @@ use src\core\template\Template;
 
 class Router
 {
-    protected Request $request;
-    protected array $routes = [];
+    protected $request;
+    protected $routes = [];
 
     public function __construct(Request $request)
     {

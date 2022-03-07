@@ -6,8 +6,8 @@ use src\core\template\Template;
 
 class Executable
 {
-    protected array $callback;
-    protected Template $template;
+    protected $callback;
+    protected $template;
 
     public function __construct(array $callback, $template) {
         $this->callback = $callback;

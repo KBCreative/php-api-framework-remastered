@@ -5,7 +5,7 @@ namespace src\core\response;
 class Response
 {
     protected $content;
-    protected int $statusCode;
+    protected $statusCode;
 
     public function __construct($content, int $statusCode = 200)
     {

@@ -9,8 +9,8 @@ use Exception;
 
 class App
 {
-    public Router $router;
-    public Request $request;
+    public $request;
+    public $router;
 
     public function __construct()
     {
