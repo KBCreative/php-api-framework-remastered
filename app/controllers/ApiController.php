@@ -3,7 +3,6 @@
 namespace app\controllers;
 
 use src\extendables\Controller;
-use src\core\request\Request;
 use src\core\response\Response;
 
 class ApiController extends Controller
